@@ -1,13 +1,87 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    font-family: "Roboto Mono", monospace;
+    background-color: #d7e5e4;
+  }
+  
+  h1 {
+    padding: 0 5px;
+    color: #28354b;
+  }
+  
+  h2 {
+    display: inline;
+    font-size: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0 5px;
+    text-transform: capitalize;
+  }
+  
+  a {
+    color: #4b8891;
+    text-decoration: none;
+  }
+  
+  small {
+    position: relative;
+    top: 30px;
+    right: 13px;
+  }
+  img {
+    width: 80px;
+  }
+  
+  .box {
+    max-width: 600px;
+    margin: 50px auto;
+    border: solid 1px grey;
+    border-radius: 10px;
+    border-color: #4b8891;
+    padding: 20px;
+    background-color: #ecebe9;
+  }
+  
+  .forecast {
+    color: #82a39e;
+    font-size: 15px;
+  }
+  
+  .metrics {
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+  }
+  
+  .temperature {
+    position: relative;
+    text-align: right;
+    padding: 0 10px;
+    right: 20px;
+  }
+  
+  .forecast .active {
+    color: #82a39e;
+    cursor: default;
+  }
+  
+  .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperature {
+    font-size: 13px;
+  }
+  
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
+  }
+  
