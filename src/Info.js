@@ -28,7 +28,7 @@ export default function ContainerBox() {
         <div className="col-10 source-code">
           <small>
             <a
-              href="https://github.com/carmenllenado/vanilla-weather-app"
+              href="https://github.com/carmenllenado/weather-react"
               target="_blank"
               rel="noreferrer"
             >
