@@ -12,7 +12,6 @@ export default function SearchBar() {
               placeholder="Enter a city"
               className="form-control shadow-sm"
               id="city-input"
-              autocomplete="off"
             />
           </div>
           <div className="col-2">

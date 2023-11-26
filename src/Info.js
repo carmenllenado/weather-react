@@ -30,11 +30,12 @@ export default function ContainerBox() {
             <a
               href="https://github.com/carmenllenado/vanilla-weather-app"
               target="_blank"
+              rel="noreferrer"
             >
               Source code
             </a>{" "}
             by Carmen Llenado, hosted on{" "}
-            <a href="https://www.netlify.com/" target="_blank">
+            <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
               Netlify
             </a>
           </small>
